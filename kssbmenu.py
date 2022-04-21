@@ -3,12 +3,12 @@ from bs4 import BeautifulSoup
 
 class kssb_menu():
 	def __init__(self):
-		self.url="https://kssb.net/parents/menus/"
-		self.session=requests.session()
+		self.url = "https://kssb.net/parents/menus/"
+		self.session = requests.session()
 	
 	def download(self):
-		r=self.session.get(self.url)
-		soup=BeautifulSoup(r.text, features="html.parser")
+		r = self.session.get(self.url)
+		soup = BeautifulSoup(r.text, features="html.parser")
 		days = []
 		menus = []
 		menu = {}

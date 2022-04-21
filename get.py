@@ -1,5 +1,5 @@
 import kssbmenu
 
-airdrop=kssbmenu.kssb_menu()
-airdrop.download()
-print("Goodbye!")
+menu = kssbmenu.kssb_menu()
+menu.download()
+print("End of output.")
