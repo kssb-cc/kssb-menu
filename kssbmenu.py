@@ -12,7 +12,7 @@ class kssb_menu():
 		for t in soup.find_all("div", class_="vc-hoverbox-front-inner"):
 			print(f"--Starting heading: {t.text}")
 			#The plan was to use this huge 1-line thingy, but not doing that no more so it can be more easily managed / understood. I don't want any more headaches.
-			for tag in t.find_all("p", class_="vc-hoverbox-block-inner"):
+			for tag in t.find_all("div", class_="vc-hoverbox-block-inner"):
 				print(tag)
 			
 			print(f"--ending heading {t.text}\n\n")
