@@ -9,11 +9,19 @@ class kssb_menu():
 	def download(self):
 		r=self.session.get(self.url)
 		soup=BeautifulSoup(r.text, features="html.parser")
+		days = []
+		menus = []
+		menu = {}
 		for t in soup.find_all("div", class_="vc-hoverbox-front-inner"):
-			print(f"--Starting heading: {t.text}")
-			#The plan was to use this huge 1-line thingy, but not doing that no more so it can be more easily managed / understood. I don't want any more headaches.
-			for tag in t.find_all("div", class_="vc-hoverbox-block-inner"):
-				print(tag)
-			
-			print(f"--ending heading {t.text}\n\n")
-			
+			days.append(t.text[1:-1])
+		for tag in soup.find_all("div", class_="vc-hoverbox-back-inner"):
+			temp = []
+			for p in tag.find_all("p"):
+				temp.append(p.text)
+			menus.append('\n'.join(temp))
+		
+		for i in range(len(days)):
+			menu[days[i]] = menus[i]
+		
+		for k, v in menu.items():
+			print(f'Menu for {k}:\n{v}\n')
