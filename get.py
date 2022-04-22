@@ -1,5 +1,7 @@
 import kssbmenu
 
 menu = kssbmenu.kssb_menu()
-menu.download()
-print("End of output.")
+
+result = menu.download()
+for k, v in result.items():
+	print(f'Menu for {k}:\n{v}\n')

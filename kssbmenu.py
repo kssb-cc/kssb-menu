@@ -23,5 +23,4 @@ class kssb_menu():
 		for i in range(len(days)):
 			menu[days[i]] = menus[i]
 		
-		for k, v in menu.items():
-			print(f'Menu for {k}:\n{v}\n')
+		return menu
