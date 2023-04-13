@@ -1,14 +1,15 @@
 # kssb-menu
-Scrape the KSSB food menu.
+The landing (and initial) repo for development of KSSB Menu.
 
-The goal of this project is to allow someone to supply a day, and you will get whatever is on the menu for that day.
+You can read about it in full (including reasons for development in text and audio formats) in [Patrick Wilson's TEALS Student Spotlight](https://www.linkedin.com/pulse/teals-student-spotlight-patrick-wilson-overland-park-ks)
 
-I also want to set this thing up so it can run on my server and 'ding' me with whatever is on the menu for that day. Maybe I can charge people for this service too. :).
+## Credits
+The following people helped make this happen:
+* [Síle Ekaterin Liszka](https://github.com/VulpineAmethyst) for some help with parsing the website and helping me learn how to parse Wordpress pages.
 
-## What we can do so far
-* Get the page itself.
-* Find the class the menu items themselves are in. Wordpress does some good after all!
-* The menu prints now (including its items).
+## Other Associated Projects
+There are two (as of this writing) additional projects I made based on this code; I used it to help me how to use the information given.
+* [KSSB Menu API](https://github.com/kssb-cc/kssb-menu-api) - A program that uses Flask to provide an interface for including the KSSB menu in your applications.
+* [KSSB Menu Telegram](https://github.com/kssb-cc/kssb-menu-telegram) - a bot designed to run on a server and send users the menu as requested.
 
-## What still must be done
-* Do something with that information (ask the user for a day, etc). This is being done in the Telegram repo.
+I hope you enjoyed my work! Feel free to improve this code; I was just learning Python and I trust there is stuff I could fix.
