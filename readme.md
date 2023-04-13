@@ -8,7 +8,7 @@ The following people helped make this happen:
 * [Síle Ekaterin Liszka](https://github.com/VulpineAmethyst) for helping me learn how to parse Wordpress pages.
 
 ## Other Associated Projects
-There are two (as of this writing) additional projects I made based on this code; I used it to help me how to use the information given.
+There are two (as of this writing) additional projects I made based on this code; I used it to help me learn how to use the information given.
 * [KSSB Menu API](https://github.com/kssb-cc/kssb-menu-api) - A program that uses Flask to provide an interface for including the KSSB menu in your applications.
 * [KSSB Menu Telegram](https://github.com/kssb-cc/kssb-menu-telegram) - a bot designed to run on a server and send users the menu as requested.
 
