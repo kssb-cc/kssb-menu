@@ -5,7 +5,7 @@ You can read about it in full (including reasons for development in text and aud
 
 ## Credits
 The following people helped make this happen:
-* [Síle Ekaterin Liszka](https://github.com/VulpineAmethyst) for some help with parsing the website and helping me learn how to parse Wordpress pages.
+* [Síle Ekaterin Liszka](https://github.com/VulpineAmethyst) for helping me learn how to parse Wordpress pages.
 
 ## Other Associated Projects
 There are two (as of this writing) additional projects I made based on this code; I used it to help me how to use the information given.
