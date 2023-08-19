@@ -1,6 +1,6 @@
 import kssbmenu
 
-menu = kssbmenu.kssb_menu()
+menu = kssbmenu.KssbMenu()
 
 result = menu.download()
 for k, v in result.items():
