@@ -1,0 +1,15 @@
+[project]
+name = "kssb_menu"
+version = "0.1.0"
+description = "Easily parse the Kansas State School for the Blind's menu."
+authors = [
+    { name = "Patrick Wilson", email = "patrick@pwry.net" }
+]
+dependencies = [
+    "beautifulsoup4",
+    "requests",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
