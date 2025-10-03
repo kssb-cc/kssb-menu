@@ -1,5 +1,5 @@
 # kssb-menu
-The landing (and initial) repo for development of KSSB Menu.
+The landing (and initial) repo for development of KSSB Menu, a scraper of the breakfast, lunch and dinner menus at the [Kansas State School for the Blind](https://kansasblind.gov).
 
 You can read about it in full (including reasons for development in text and audio formats) in [Patrick Wilson's TEALS Student Spotlight](https://www.linkedin.com/pulse/teals-student-spotlight-patrick-wilson-overland-park-ks)
 
