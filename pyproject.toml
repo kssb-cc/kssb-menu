@@ -1,7 +1,7 @@
 [project]
 name = "kssb-menu"
 version = "0.1.0"
-description = "Add your description here"
+description = "Scrape the menus of the Kansas State School for the Blind"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
