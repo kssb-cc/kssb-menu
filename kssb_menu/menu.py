@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 class KssbMenu:
     def __init__(self):
-        self.url = "https://kssb.net/parents/menus/"
+        self.url = "https://kansasblind.gov/parents/menus/"
         self.session = requests.session()
 
     def download(self):
